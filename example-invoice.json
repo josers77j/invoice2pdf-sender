@@ -1,0 +1,22 @@
+{
+  "invoiceNumber": "INV-2024-001",
+  "customerName": "Empresa Ejemplo S.A.",
+  "customerEmail": "cliente@empresa.com",
+  "invoiceDate": "2024-01-15",
+  "items": [
+    {
+      "description": "Servicio de consultoría",
+      "quantity": 10,
+      "unitPrice": 150
+    },
+    {
+      "description": "Licencia de software",
+      "quantity": 2,
+      "unitPrice": 500
+    }
+  ],
+  "subtotal": 2500,
+  "tax": 400,
+  "total": 2900,
+  "notes": "Pago a 30 días. Gracias por su preferencia."
+}

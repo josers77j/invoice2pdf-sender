@@ -1,0 +1,24 @@
+{
+  "name": "invoice-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo para generación de facturas PDF y envío por email",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "test:unit": "turbo run test:unit",
+    "test:integration": "turbo run test:integration",
+    "lint": "turbo run lint",
+    "format": "turbo run format"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "typescript": "^5.6.3",
+    "prettier": "^3.3.3"
+  },
+  "packageManager": "pnpm@9.12.3",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
